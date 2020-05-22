@@ -1,0 +1,48 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# AD744
+#
+DEF AD744 IC 0 40 Y N 1 L N
+F0 "IC" 300 100 50 H V L BNN
+F1 "AD744" 300 -150 50 H V L BNN
+F3 "05F7341" 0 0 50 H I L BNN
+F4 "AD744JR" 0 0 50 H I L BNN
+F5 "ANALOG DEVICES" 0 0 50 H I L BNN
+F6 "1651300" 0 0 50 H I L BNN
+$FPLIST
+ H08
+ DIL08
+ SO8
+$ENDFPLIST
+DRAW
+P 2 0 0 10 -100 300 -100 -300 N
+P 2 0 0 10 -100 -300 100 -150 N
+P 2 0 0 10 100 -150 300 0 N
+P 2 0 0 10 300 0 -100 300 N
+P 2 0 0 6 200 200 200 80 N
+P 2 0 0 6 200 -200 200 -80 N
+P 2 0 0 6 0 230 0 300 N
+P 2 0 0 6 0 -300 0 -230 N
+P 2 0 0 6 100 -200 100 -150 N
+T 0 -70 70 50 0 0 0 + Normal 0 L B
+T 0 -60 -110 50 0 0 0 - Normal 0 L B
+T 0 30 155 40 0 0 0 +VS Normal 0 L B
+T 0 30 -155 40 0 0 0 -VS Normal 0 R T
+T 900 220 -85 40 0 0 0 OFF Normal 0 R T
+T 900 215 80 40 0 0 0 OFF Normal 0 L B
+T 900 110 -130 40 0 0 0 COMP Normal 0 L B
+X IN+ 3 -200 100 100 R 40 40 0 0 I 
+X IN- 2 -200 -100 100 R 40 40 0 0 I 
+X OUT 6 400 0 100 L 40 40 0 0 O 
+X -VS 4 0 -400 100 U 40 40 0 0 I 
+X +VS 7 0 400 100 D 40 40 0 0 I 
+X OFF@1 1 200 300 100 D 40 40 0 0 P 
+X OFF@2 8 200 -300 100 U 40 40 0 0 P 
+X COMP 5 100 -300 100 U 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name jst)(type KiCad)(uri ${KIPRJMOD}/jst.pretty)(options "")(descr ""))
+  (lib (name Battery)(type KiCad)(uri "/Users/enzocalvino/Documents/EISE-4A/S2/Projet Indus/Kicad_Perso/kicad-footprints-master/Battery.pretty")(options "")(descr ""))
+  (lib (name Capacitor_SMD)(type KiCad)(uri "/Users/enzocalvino/Documents/EISE-4A/S2/Projet Indus/Kicad_Perso/kicad-footprints-master/Capacitor_SMD.pretty")(options "")(descr ""))
+  (lib (name mesempreintes)(type KiCad)(uri "/Users/enzocalvino/Documents/EISE-4A/S1/Projet SE/KiCad/MesEmpreintes/mesempreintes.pretty")(options "")(descr ""))
+  (lib (name Connector_PinHeader_2.54mm)(type KiCad)(uri "/Users/enzocalvino/Documents/EISE4A/S2/Projet Indus/Kicad_Perso/kicad-footprints-master/Connector_PinHeader_2.54mm.pretty")(options "")(descr ""))
+)

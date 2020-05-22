@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# OPA827AID
+#
+DEF OPA827AID U 0 40 Y Y 1 L N
+F0 "U" -227 576 50 H V L BNN
+F1 "OPA827AID" -219 -916 50 H V L BNN
+F2 "SOIC127P600X175-8N" 0 0 50 H I L BNN
+F3 "12P6261" 0 0 50 H I L BNN
+F4 "SOIC-8" 0 0 50 H I L BNN
+F5 "OPA827AID" 0 0 50 H I L BNN
+F6 "Texas Instruments" 0 0 50 H I L BNN
+F7 "1684749" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -500 500 -500 -800 N
+P 2 0 0 16 -500 -800 500 -800 N
+P 2 0 0 16 500 -800 500 500 N
+P 2 0 0 16 500 500 -500 500 N
+X V+ 7 -700 300 200 R 40 40 0 0 W 
+X -IN 2 -700 100 200 R 40 40 0 0 I 
+X +IN 3 -700 0 200 R 40 40 0 0 I 
+X NC_2 1 -700 -200 200 R 40 40 0 0 N 
+X NC_3 5 -700 -300 200 R 40 40 0 0 N 
+X NC 8 -700 -400 200 R 40 40 0 0 N 
+X V- 4 -700 -600 200 R 40 40 0 0 W 
+X OUT 6 700 300 200 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library
